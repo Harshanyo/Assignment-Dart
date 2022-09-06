@@ -13,10 +13,9 @@ void main(){
 
 //  }
 
-String data = "harshan yoyo";
-List stringsss = data.split('');
-print(stringsss);
-for(String value in stringsss){
-print(value);
-}
-
+    var counter = [1,2,3,4,5];
+    print('W3Adda - Dart for..in loop');
+    for (var ctr in counter) {
+      print(ctr);
+    }
+  }

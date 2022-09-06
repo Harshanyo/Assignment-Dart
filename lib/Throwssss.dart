@@ -16,7 +16,7 @@ class Mark {
   void main (){
   try {
 Mark obj =  Mark();
-obj.checkmark(16);
+Mark.Checkmark(16);
 }catch(e){
   print('mark shuld be grater then 40 $e');
-}
+}}

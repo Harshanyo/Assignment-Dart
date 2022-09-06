@@ -1,22 +1,21 @@
-import 'dart:io';
-
-class Country{
-  String name = "india";
-
+class Car
+{
+  int speed = 200;
 }
-class State extends Country{
-  late  String name ;
-  display(){
-    stdout.write;
+
+// sub class Bike extending Car
+class Bike extends Car
+{
+  int speed = 110;
+
+  void display()
+  {
+    //print varible of the base class (Bike)
+    print("The speed of car: ${super.speed}");
   }
-
 }
-class District extends State{
-  late String name;
-
-}
-void main(){
-
-  District();
-  print('iam from $obj.name = "ernakulam"');
+void main() {
+// Creating object of sub class
+  Bike b = new Bike();
+  b.display();
 }
